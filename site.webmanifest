@@ -1,0 +1,45 @@
+{
+  "background_color": "#2A2A2A",
+  "description": "🪐",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "1024x1024",
+      "src": "web-app-icon-masked-1024x1024.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "web-app-icon-masked-512x512.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "192x192",
+      "src": "web-app-icon-masked-192x192.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "1024x1024",
+      "src": "web-app-icon-maskable-1024x1024.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "web-app-icon-maskable-512x512.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "192x192",
+      "src": "web-app-icon-maskable-192x192.png",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en-US",
+  "name": "Ghalactic",
+  "short_name": "Ghalactic",
+  "start_url": ".",
+  "theme_color": "#4A7EBF"
+}
