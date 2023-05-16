@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@iconduit/iconduit": "^0.9.0"
+  }
+}

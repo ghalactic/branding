@@ -1,0 +1,35 @@
+name: Publish Release
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    name: Publish release
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: make link-dependencies
+
+      - name: Build
+        run: make release
+
+      - name: Publish release
+        uses: eloquent/github-release-action@v3
+        with:
+          reactions: hooray,heart,rocket
+          assets: |
+            - path: artifacts/branding.zip
+              name: ghalactic.branding.zip
+              label: Ghalactic branding assets

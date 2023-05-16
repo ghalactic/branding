@@ -1,0 +1,12 @@
+{
+  "outputPath": "../artifacts/dist",
+  "name": "Ghalactic",
+  "description": "🪐",
+  "urls": {
+    "base": "https://ghalactic.github.io"
+  },
+  "colors": {
+    "background": "#2A2A2A",
+    "brand": "#4A7EBF"
+  }
+}
