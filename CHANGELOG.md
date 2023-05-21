@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog], and this project adheres to
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
+## v0.2.1 - 2023-05-22
+
+### Fixed
+
+- Fixed the background color for Open Graph / Twitter images.
+
 ## v0.2.0 - 2023-05-21
 
 ### Changed
