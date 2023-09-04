@@ -29,7 +29,7 @@ jobs:
         run: make release
 
       - name: Publish release
-        uses: ghalactic/github-release-from-tag@v4
+        uses: ghalactic/github-release-from-tag@5b47f7220e4f79a1d9dfaec415d27091bcc2fd81 # v5
         with:
           reactions: hooray,heart,rocket
           assets: |
