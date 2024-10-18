@@ -52,7 +52,7 @@
       },
       "iconduitConsumerMjs": {
         "path": "iconduit.consumer.mjs",
-        "type": "application/javascript",
+        "type": "text/javascript",
         "url": "iconduit.consumer.mjs"
       },
       "iconduitManifest": {
@@ -77,7 +77,7 @@
       },
       "serviceWorker": {
         "path": "service-worker.js",
-        "type": "application/javascript",
+        "type": "text/javascript",
         "url": "service-worker.js"
       },
       "tagsHtml": {
@@ -135,35 +135,35 @@
         }
       },
       "appleTouchStartup": {
-        "ipad1536x2048d264.landscape": {
-          "htmlSizes": "2048x1536",
-          "path": "apple-touch-startup-2048x1536r2.png",
+        "ipad1488x2266d326.landscape": {
+          "htmlSizes": "2266x1488",
+          "path": "apple-touch-startup-2266x1488r2.png",
           "size": {
-            "deviceHeight": 1024,
-            "deviceWidth": 768,
-            "height": 1536,
+            "deviceHeight": 1133,
+            "deviceWidth": 744,
+            "height": 1488,
             "orientation": "landscape",
-            "pixelDensity": 264,
+            "pixelDensity": 326,
             "pixelRatio": 2,
-            "width": 2048
+            "width": 2266
           },
           "type": "image/png",
-          "url": "apple-touch-startup-2048x1536r2.png"
+          "url": "apple-touch-startup-2266x1488r2.png"
         },
-        "ipad1536x2048d264.portrait": {
-          "htmlSizes": "1536x2048",
-          "path": "apple-touch-startup-1536x2048r2.png",
+        "ipad1488x2266d326.portrait": {
+          "htmlSizes": "1488x2266",
+          "path": "apple-touch-startup-1488x2266r2.png",
           "size": {
-            "deviceHeight": 1024,
-            "deviceWidth": 768,
-            "height": 2048,
+            "deviceHeight": 1133,
+            "deviceWidth": 744,
+            "height": 2266,
             "orientation": "portrait",
-            "pixelDensity": 264,
+            "pixelDensity": 326,
             "pixelRatio": 2,
-            "width": 1536
+            "width": 1488
           },
           "type": "image/png",
-          "url": "apple-touch-startup-1536x2048r2.png"
+          "url": "apple-touch-startup-1488x2266r2.png"
         },
         "ipad1536x2048d326.landscape": {
           "htmlSizes": "2048x1536",
@@ -435,35 +435,65 @@
           "type": "image/png",
           "url": "apple-touch-startup-1170x2532r3.png"
         },
-        "iphone1242x2208d462.landscape": {
-          "htmlSizes": "2208x1242",
-          "path": "apple-touch-startup-2208x1242r3.png",
+        "iphone1179x2556d460.landscape": {
+          "htmlSizes": "2556x1179",
+          "path": "apple-touch-startup-2556x1179r3.png",
           "size": {
-            "deviceHeight": 736,
-            "deviceWidth": 414,
-            "height": 1242,
+            "deviceHeight": 852,
+            "deviceWidth": 393,
+            "height": 1179,
             "orientation": "landscape",
-            "pixelDensity": 462,
+            "pixelDensity": 460,
             "pixelRatio": 3,
-            "width": 2208
+            "width": 2556
           },
           "type": "image/png",
-          "url": "apple-touch-startup-2208x1242r3.png"
+          "url": "apple-touch-startup-2556x1179r3.png"
         },
-        "iphone1242x2208d462.portrait": {
-          "htmlSizes": "1242x2208",
-          "path": "apple-touch-startup-1242x2208r3.png",
+        "iphone1179x2556d460.portrait": {
+          "htmlSizes": "1179x2556",
+          "path": "apple-touch-startup-1179x2556r3.png",
           "size": {
-            "deviceHeight": 736,
-            "deviceWidth": 414,
-            "height": 2208,
+            "deviceHeight": 852,
+            "deviceWidth": 393,
+            "height": 2556,
             "orientation": "portrait",
-            "pixelDensity": 462,
+            "pixelDensity": 460,
             "pixelRatio": 3,
-            "width": 1242
+            "width": 1179
           },
           "type": "image/png",
-          "url": "apple-touch-startup-1242x2208r3.png"
+          "url": "apple-touch-startup-1179x2556r3.png"
+        },
+        "iphone1206x2622d460.landscape": {
+          "htmlSizes": "2622x1206",
+          "path": "apple-touch-startup-2622x1206r3.png",
+          "size": {
+            "deviceHeight": 874,
+            "deviceWidth": 402,
+            "height": 1206,
+            "orientation": "landscape",
+            "pixelDensity": 460,
+            "pixelRatio": 3,
+            "width": 2622
+          },
+          "type": "image/png",
+          "url": "apple-touch-startup-2622x1206r3.png"
+        },
+        "iphone1206x2622d460.portrait": {
+          "htmlSizes": "1206x2622",
+          "path": "apple-touch-startup-1206x2622r3.png",
+          "size": {
+            "deviceHeight": 874,
+            "deviceWidth": 402,
+            "height": 2622,
+            "orientation": "portrait",
+            "pixelDensity": 460,
+            "pixelRatio": 3,
+            "width": 1206
+          },
+          "type": "image/png",
+          "url": "apple-touch-startup-1206x2622r3.png"
         },
         "iphone1242x2688d458.landscape": {
           "htmlSizes": "2688x1242",
@@ -524,6 +554,66 @@
           },
           "type": "image/png",
           "url": "apple-touch-startup-1284x2778r3.png"
+        },
+        "iphone1290x2796d460.landscape": {
+          "htmlSizes": "2796x1290",
+          "path": "apple-touch-startup-2796x1290r3.png",
+          "size": {
+            "deviceHeight": 932,
+            "deviceWidth": 430,
+            "height": 1290,
+            "orientation": "landscape",
+            "pixelDensity": 460,
+            "pixelRatio": 3,
+            "width": 2796
+          },
+          "type": "image/png",
+          "url": "apple-touch-startup-2796x1290r3.png"
+        },
+        "iphone1290x2796d460.portrait": {
+          "htmlSizes": "1290x2796",
+          "path": "apple-touch-startup-1290x2796r3.png",
+          "size": {
+            "deviceHeight": 932,
+            "deviceWidth": 430,
+            "height": 2796,
+            "orientation": "portrait",
+            "pixelDensity": 460,
+            "pixelRatio": 3,
+            "width": 1290
+          },
+          "type": "image/png",
+          "url": "apple-touch-startup-1290x2796r3.png"
+        },
+        "iphone1320x2868d460.landscape": {
+          "htmlSizes": "2868x1320",
+          "path": "apple-touch-startup-2868x1320r3.png",
+          "size": {
+            "deviceHeight": 956,
+            "deviceWidth": 440,
+            "height": 1320,
+            "orientation": "landscape",
+            "pixelDensity": 460,
+            "pixelRatio": 3,
+            "width": 2868
+          },
+          "type": "image/png",
+          "url": "apple-touch-startup-2868x1320r3.png"
+        },
+        "iphone1320x2868d460.portrait": {
+          "htmlSizes": "1320x2868",
+          "path": "apple-touch-startup-1320x2868r3.png",
+          "size": {
+            "deviceHeight": 956,
+            "deviceWidth": 440,
+            "height": 2868,
+            "orientation": "portrait",
+            "pixelDensity": 460,
+            "pixelRatio": 3,
+            "width": 1320
+          },
+          "type": "image/png",
+          "url": "apple-touch-startup-1320x2868r3.png"
         },
         "iphone640x1136d326.landscape": {
           "htmlSizes": "1136x640",
