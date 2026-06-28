@@ -19,15 +19,10 @@ artifacts/branding.zip: artifacts/dist
 
 	cd "$<"; zip -r - . > ../branding.zip
 
-artifacts/dist: artifacts/link-dependencies.touch artifacts/puppeteer-install.touch $(JS_SOURCE_FILES)
+artifacts/dist: artifacts/link-dependencies.touch $(JS_SOURCE_FILES)
 	@rm -rf "$@"
 
 	$(JS_EXEC) iconduit src/iconduit.config.json
 	touch "$@/.nojekyll"
 
-	@touch "$@"
-
-artifacts/puppeteer-install.touch:
-	$(JS_EXEC) puppeteer browsers install chrome
-	@mkdir -p "$(@D)"
 	@touch "$@"
