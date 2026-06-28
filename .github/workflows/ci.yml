@@ -22,7 +22,7 @@ jobs:
           node-version: 24
 
       - name: Install dependencies
-        run: make node_modules
+        run: make link-dependencies
 
       - name: Build
         run: make release
