@@ -28,6 +28,7 @@ artifacts/dist: artifacts/link-dependencies.touch artifacts/puppeteer-install.to
 	@touch "$@"
 
 artifacts/puppeteer-install.touch:
+	rm -rf /home/runner/.cache/puppeteer/chrome/linux-127.0.6533.88
 	$(JS_EXEC) puppeteer browsers install chrome
 	@mkdir -p "$(@D)"
 	@touch "$@"
